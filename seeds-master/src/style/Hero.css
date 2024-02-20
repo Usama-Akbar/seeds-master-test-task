@@ -1,0 +1,137 @@
+.hero {
+    background-color: var(--eerie-black-1);
+    color: var(--white);
+    min-height: 700px;
+    width: 100vw;
+    padding-block: 120px 60px;
+    display: grid;
+    align-items: center;
+}
+
+.hero .section-subtitle {
+    --color: var(--white);
+    --ff: var(--ff-inter);
+    --fs: var(--fs-7);
+}
+
+.hero-title {
+    font-size: var(--fs-2);
+    margin-block: 30px;
+    line-height: 1.2;
+}
+
+.hero-text {
+    font-family: var(--ff-inter);
+    font-size: var(--fs-8);
+    letter-spacing: -1px;
+    max-width: 50ch;
+    margin-block-end: 30px;
+    letter-spacing: 2px;
+}
+
+/*-----------------------------------*\
+  #FEATURES
+\*-----------------------------------*/
+
+.features {
+    padding-block-start: 0;
+    background-color: var(--eerie-black-1);
+    width: 100%;
+}
+
+.features-list {
+    display: grid;
+    gap: 30px;
+    width: 100%;
+}
+
+.features-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    width: 100%;
+}
+
+.features-item .item-icon {
+    color: var(--pistachio);
+    font-size: 5.5rem;
+    margin-block-start: 10px;
+    
+}
+
+.features-item .item-icon ion-icon {
+    --ionicon-stroke-width: 25px;
+   
+}
+
+.features-item .item-title {
+    margin-block-end: 10px;
+}
+
+.features-item .item-text {
+    max-width: 25ch;
+    color: var(--white_50);
+    font-size: var(--fs-9);
+}
+
+@media only screen and (min-width: 761px) {
+    .hero {
+            background-color: var(--eerie-black-1);
+            color: var(--white);
+            padding-left: 100px;
+            display: grid;
+            
+        }
+    
+        .hero .section-subtitle {
+            --color: var(--white);
+            --ff: var(--ff-inter);
+            font-size: 20px;
+        }
+    
+        .hero-title {
+            font-size: var(--fs-2);
+            margin-block: 30px;
+            line-height: 1.2;
+            font-size: 70px;
+        }
+                  .features-list {
+                      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                      padding-left: 100px;
+                    
+                  }
+                  
+               
+}
+
+@media (min-width: 992px) {
+    .hero {
+            background-image: url("../../public/images/hero.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left;
+            min-height: 780px;
+        }
+          .features {
+              padding-block-start: var(--section-padding);
+          }
+    
+          .features-list {
+              grid-template-columns: repeat(4, 1fr);
+          }
+}
+
+
+@media (min-width: 1200px) {
+    .hero {
+            padding-block: 200px 325px;
+            background-position: center;
+        }
+
+                .features {
+                    padding-block-start: 0;
+                    margin-block-start: -185px;
+                    background-color: transparent;
+                }
+
+}
