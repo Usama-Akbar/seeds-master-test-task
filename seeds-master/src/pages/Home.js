@@ -9,12 +9,12 @@ import Partner from "../sections/Partner";
 import Event from "../sections/Event";
 import Post from "../sections/Post";
 import Footer from "../sections/Footer";
-import Navigation from "../sections/Navigation";
+import Navbar from "../sections/Navbar";
 
 function Home() {
   return (
     <>
-      <Navigation />
+      <Navbar />
       <Hero />
       <About />
       <Cta />

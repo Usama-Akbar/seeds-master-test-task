@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "../style/Navigation.css";
+import "../style/Navbar.css";
 
-function Navigation() {
+function Navbar() {
   const [isNavbarActive, setIsNavbarActive] = useState(false);
   const [isHeaderActive, setIsHeaderActive] = useState(false);
 
@@ -41,7 +41,6 @@ function Navigation() {
           className="nav-open-btn"
           aria-label="Open Menu"
           onClick={toggleNavbar}
-          style={{ backgroundColor: "white" }}
         >
           <ion-icon name="menu-outline"></ion-icon>
         </button>
@@ -96,4 +95,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default Navbar;

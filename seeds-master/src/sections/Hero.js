@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/Hero.css";
 import FeaturesList from "../components/FeaturesList";
+import HeadingSideImg from "../components/HeadingSideImg";
 
 function Hero() {
   return (
@@ -9,12 +10,7 @@ function Hero() {
         <section className="hero" id="home">
           <div className="container">
             <p className="section-subtitle">
-              <img
-                src="../../public/images/subtitle-img-green.png"
-                width={32}
-                height={7}
-                alt="Wavy line"
-              />
+              <HeadingSideImg />
               <span>Welcome to natural world</span>
             </p>
             <h2 className="h1 hero-title">
