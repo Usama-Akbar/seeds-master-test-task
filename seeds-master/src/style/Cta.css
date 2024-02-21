@@ -44,3 +44,10 @@
  .cta .section-title {
      --fs-4: 5rem;
  }}
+
+ @media (min-width: 1200px) {
+    .cta{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+ }

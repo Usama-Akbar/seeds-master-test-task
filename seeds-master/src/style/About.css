@@ -137,6 +137,10 @@
     }
 }
 @media (min-width: 1200px) {
+    .about {
+            padding-left: 80px;
+            padding-right: 80px;
+        }
     .deco-img {
             left: -35px;
         }

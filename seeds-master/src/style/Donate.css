@@ -122,6 +122,12 @@
 }
 
 @media (min-width: 1200px) {
+
+    .donate{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
     .donate-card {
             padding-inline-end: 120px;
         }

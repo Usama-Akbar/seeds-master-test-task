@@ -1,0 +1,120 @@
+.testi {
+    background-color: var(--jet);
+}
+
+.testi-content {
+    padding: var(--section-padding) 15px;
+}
+
+.testi .section-title {
+    color: var(--white);
+    margin-block: 10px 40px;
+}
+
+.testi-card {
+    color: var(--white);
+}
+
+.testi-text,
+.testi-name {
+    font-size: var(--fs-8);
+}
+
+.testi-text,
+.testi-title {
+    font-family: var(--ff-inter);
+}
+
+.testi-text {
+    padding-block-end: 30px;
+    border-block-end: 1px solid var(--white_10);
+    margin-block: 20px 30px;
+}
+
+.testi-title {
+    color: var(--white_50);
+    font-size: var(--fs-10);
+}
+
+.testi-banner {
+    background-color: var(--light-gray);
+}
+
+/* =========================================================================== */
+
+@media (min-width: 768px) {
+    .testi-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+        }
+    
+        .testi-text {
+            margin-block-start: 0;
+        }
+}
+
+@media (min-width: 992px) {
+    .testi {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    
+        .testi-content {
+            padding-inline: 30px 50px;
+        }
+}
+@media (min-width: 1200px) {
+    
+.nav-open-btn,
+.nav-close-btn,
+.navbar>.logo,
+.navbar-link>ion-icon {
+    display: none;
+}
+
+.header {
+    padding-block: 25px;
+}
+
+.lang-switch {
+    position: relative;
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    font: inherit;
+    font-size: var(--fs-8);
+    font-weight: var(--fw-600);
+}
+
+.lang-switch option {
+    color: var(--eerie-black-1);
+}
+
+.navbar {
+    all: unset;
+    margin-inline: auto;
+}
+
+.navbar-list {
+    all: unset;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-link {
+    font-size: var(--fs-8);
+    font-weight: var(--fw-600);
+    text-transform: capitalize;
+    transition: var(--transition-2);
+}
+
+.navbar-link:is(:hover, :focus) {
+    background: none;
+}
+
+.navbar-list:hover .navbar-link:not(:hover) {
+    color: var(--white-60);
+}
+}

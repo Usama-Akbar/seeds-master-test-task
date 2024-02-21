@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/About.css";
+import HeadingSideImg from "../components/HeadingSideImg";
 
 function About() {
   return (
@@ -9,7 +10,6 @@ function About() {
           <div className="about-banner">
             <h2 className="deco-title">About Us</h2>
             <img
-              //   src="../../public/images/deco-img.png"
               src="/images/deco-img.png"
               width={58}
               height={261}
@@ -57,12 +57,7 @@ function About() {
           </div>
           <div className="about-content">
             <p className="section-subtitle">
-              <img
-                src="/images/subtitle-img-green.png"
-                width={32}
-                height={7}
-                alt="Wavy line"
-              />
+              <HeadingSideImg />
               <span>Why Choose Us</span>
             </p>
             <h2 className="h2 section-title">

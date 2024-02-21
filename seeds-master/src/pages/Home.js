@@ -1,22 +1,31 @@
 import React from "react";
-import "../style/Navbar.css";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Cta from "../components/Cta";
-import Services from "../components/Services";
-import Donate from "../components/Donate";
+import Hero from "../sections/Hero";
+import About from "../sections/About";
+import Cta from "../sections/Cta";
+import Services from "../sections/Services";
+import Donate from "../sections/Donate";
+import Testimonials from "../sections/Testimonials";
+import Partner from "../sections/Partner";
+import Event from "../sections/Event";
+import Post from "../sections/Post";
+import Footer from "../sections/Footer";
+import Navigation from "../sections/Navigation";
 
 function Home() {
   return (
-    <div>
-      <Navbar />
+    <>
+      <Navigation />
       <Hero />
       <About />
       <Cta />
       <Services />
       <Donate />
-    </div>
+      <Testimonials />
+      <Partner />
+      <Event />
+      <Post />
+      <Footer />
+    </>
   );
 }
 
