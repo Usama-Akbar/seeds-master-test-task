@@ -41,6 +41,7 @@ function Testimonials() {
             src="/images/testi-banner.jpg"
             width={960}
             height={846}
+            style={{ height: "631px" }}
             loading="lazy"
             alt="Rhinoceros"
             className="img-cover"

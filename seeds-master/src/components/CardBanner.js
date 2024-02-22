@@ -7,6 +7,7 @@ function CardBanner({ img }) {
         src={img}
         width={520}
         height={325}
+        style={{ height: "250px" }}
         loading="lazy"
         alt="Elephant"
         className="img-cover"

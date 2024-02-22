@@ -20,7 +20,9 @@
 .cta-banner {
     background-color: var(--light-gray);
 }
-
+.img-cover{
+    height: 240px;
+}
 
 
 /* --------------------------------====================---------------------- */

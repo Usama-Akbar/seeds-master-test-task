@@ -15,7 +15,7 @@ function CardContent() {
       <div className="progress-box">
         <div className="progress" />
       </div>
-      <h3 className="h3 card-title">Raise Hand To Save Animals</h3>
+      <h3 className="h3 card-title">Raise Hand To Save Plants</h3>
       <div className="card-wrapper">
         <p className="card-wrapper-text">
           <span>Goal</span>

@@ -61,7 +61,7 @@ function About() {
               <span>Why Choose Us</span>
             </p>
             <h2 className="h2 section-title">
-              Rise Your Hand to Save <strong>World Animals Life</strong>
+              Rise Your Hand to Save <strong>World Plants</strong>
             </h2>
             <ul className="tab-nav">
               <li>
